@@ -1,7 +1,7 @@
 # Carbon Brainprint – OpenSource Methodology
 
 
-# I.Introduction
+# I. Introduction
 
 ## Genesis
 

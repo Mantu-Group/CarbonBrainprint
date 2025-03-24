@@ -58,7 +58,7 @@ We’re looking for contributors to help:
 
 🔹  **Suggest optimizations and new features**
 
-🔗  **Read our Contribution Guidelines**: [Insert Link]
+🔗  **Read our Contribution Guidelines**: https://github.com/Mantu-Group/CarbonBrainprint/blob/Documents/CONTRIBUTING.md
 
 # 📜 License
 

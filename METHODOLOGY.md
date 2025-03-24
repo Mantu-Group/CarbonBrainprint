@@ -1,7 +1,7 @@
 # Carbon Brainprint – OpenSource Methodology
 
 
-# Introduction
+# I.Introduction
 
 ## Genesis
 
@@ -64,7 +64,7 @@ Clients can leverage _Carbon Brainprint_ in two key ways:
 
 By integrating _Carbon Brainprint_ into procurement and reporting strategies, companies can drive industry-wide transparency and sustainability improvements.
 
-# Conceptual framework
+# II. Conceptual framework
 
 ## Standards followed
 
@@ -177,11 +177,11 @@ The **Business Teams** play a key role in the external communication and operati
 -   **Issuing the final Carbon Footprint Product (CFP) reports**, delivering clear, transparent, and reliable information to clients.
 -   **Integrating _Carbon Brainprint_ results into project evaluations**, enabling informed decision-making and sustainability-driven strategies.
 
-# Step-by-Step Methodology
+# III. Step-by-Step Methodology
 
 This methodology presents the most complex scenario for calculating the carbon footprint of intellectual services: assessing emissions at the **entity level across a group of consolidated entities**. A comparable approach can be applied when analyzing emissions **at the office level within a single entity**. In simpler cases—such as when a single entity represents the entire organization—the same methodological steps remain relevant, though with simplified allocation processes.
 
-## Framing the analysis
+# Framing the analysis
 
 ## a. Goal & scope (time and geography)
 

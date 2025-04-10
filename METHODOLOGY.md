@@ -698,13 +698,13 @@ Business travel tools often lack client-level granularity.
 _Interim Solution:_ Calculate average emissions from business travel per consultant-day at the entity level.  
 _Action Plan:_ Improve booking tools or data collection processes to assign trips to specific clients.
 
-**b. Data Type Distribution Accuracy:**
+**b. Data type distribution accuracy:**
 
 CFPs often rely on the CFA’s distribution between primary, monetary, and estimated data.
 
 _Action Plan:_ Collaborate closely with the CFA lead to refine input categories and improve data quality year over year.
 
-**c. Commuting Data from Consultants:**
+**c. Commuting data from consultants:**
 
 Direct commuting data is most reliable but can be difficult to obtain, for instance when a high number of people work on a project.
 
@@ -767,7 +767,7 @@ If the organizational CFA did not calculate uncertainty, then both **individual 
 When the CFA has already included uncertainty:
 
 -   Initial uncertainty values are **imported from the CFA**.
--   The main task becomes **reallocating country-level emissions and uncertainties** to the relevant entities (e.g., Amaris Consulting entities).
+-   The main task becomes **reallocating country-level emissions and uncertainties** to the relevant entities.
 
 A pivot-based calculation approach is applied:
 
@@ -797,9 +797,7 @@ To assess sensitivity:
 1.  **Swap the allocation method** (e.g., apply turnover allocation where headcount was used, and vice versa).
 2.  **Calculate the sensitivity ratio** for each entity using the formula:
 
-$$
-\text{Sensitivity Ratio}_i = \frac{A_{\text{alt},i}}{A_{\text{init},i}}
-$$
+Sensitivity Ratioᵢ = A_alt,ᵢ / A_init,ᵢ
 
 Where:
 
@@ -820,7 +818,7 @@ A high sensitivity indicates that the choice of allocation logic **significantly
 
 The quality assurance framework for the _Carbon Brainprint_ is designed to ensure the **reliability, transparency, and consistency** of the calculation model. It is grounded in **annual reviews, structured internal audits**, and adherence to international standards, particularly **ISO 14067** and **ISO/TS 14071**.
 
-This process involves a **multi-disciplinary team**, including sustainability professionals, internal auditors, and business representatives. Their diverse expertise ensures a comprehensive review from both a technical and operational perspective, contributing to continuous improvement of the methodology.
+This process should involve a **multi-disciplinary team**, including sustainability professionals, internal auditors, and business representatives. Their diverse expertise ensures a comprehensive review from both a technical and operational perspective, contributing to continuous improvement of the methodology.
 
 ## a. Internal audit of the calculation model
 
@@ -863,9 +861,9 @@ Steps include:
 -   The internal auditor responsible for compliance prepares a **checklist** of audit points and identifies relevant auditees.
 -   The audit evaluates the full **Carbon Brainprint process**, identifying:
 
--   **Non-conformities**
--   **Strengths**
--   **Opportunities for improvement**
+	-   **Non-conformities**
+	-   **Strengths**
+	-   **Opportunities for improvement**
 
 A final **internal audit report** is issued, and any identified gaps are addressed through **corrective action plans** to ensure readiness for a future **external verification**.
 
@@ -880,7 +878,7 @@ All collaborators with access are **trained not to modify** the documents. Any u
 -   Immediate restoration to the most recent validated version
 -   Follow-up with the responsible party by the Carbon Brainprint management team
 
-The annual calculation model is **password-protected** at the sheet level.
+The annual calculation model should be **password-protected** at the sheet level.
 
 # Communication of the result
 
@@ -1053,7 +1051,7 @@ Upon successful audit validation, the _Carbon Brainprint_ tool enters its operat
 -   The tool is seamlessly integrated into **existing sales and costing software**, allowing sales teams to calculate both the financial and environmental cost of a project in a **single interface**.
 -   This eliminates redundant data entry and ensures that clients receive comprehensive insights, including a breakdown of the project’s projected carbon footprint alongside traditional cost assessments.
 
-3.  **Project Conclusion & Reporting:**
+2.  **Project Conclusion & Reporting:**
 
 -   To simplify reporting, we have developed an **automated workflow** using **Power Automate**.
 -   Project managers can enter final physical data through a **user-friendly form**, capturing actual emissions data based on real project execution (e.g., duration, number of services provided, emissions from travel and office usage).

@@ -467,21 +467,21 @@ These sheets support the model by centralizing **source data and conversion fact
 
 -   **Emission factors**:
 
--   Contains indices and units for all emission factors used
+	-   Contains indices and units for all emission factors used
 
 -   **Data import from CFA**:
 
--   Imports data from the verified organizational **carbon footprint assessment (CFA)**
--   Can be powered by **Excel Power Query**
+	-   Imports data from the verified organizational **carbon footprint assessment (CFA)**
+	-   Can be powered by **Excel Power Query**
 
 -   **Allocation data**:
 
--   Includes HR and finance data from company reporting
+	-   Includes HR and finance data from company reporting
 
 -   **Additional data**:
 
--   **Distance matrix** (e.g., between offices)
--   **Etc.**
+	-   **Distance matrix** (e.g., between offices)
+	-   **Etc.**
 
 **4. Calculation sheets**
 
@@ -489,58 +489,58 @@ These sheets carry out all computational tasks in three stages:
 
 -   **Indicator calculations**:
 
--   Calculates emissions at the **most granular level possible**
--   Includes raw emissions per activity category
+	-   Calculates emissions at the **most granular level possible**
+	-   Includes raw emissions per activity category
 
 -   **Allocation calculations**:
 
--   Allocates emissions by **entity, brand, geography**, etc.
--   Converts total emissions into **intensity per reference unit** (e.g., per consulting day)
+	-   Allocates emissions by **entity, brand, geography**, etc.
+	-   Converts total emissions into **intensity per reference unit** (e.g., per consulting day)
 
 -   **Final calculations**:
 
--   Aggregates all results by life cycle stage
--   Provides final carbon intensity and **uncertainty scores**
--   Breaks down data **by project and entity**
+	-   Aggregates all results by life cycle stage
+	-   Provides final carbon intensity and **uncertainty scores**
+	-   Breaks down data **by project and entity**
 
 **5. Complementary analysis**
 
 -   **Uncertainty analysis**:
 
--   Evaluates uncertainty per emission category and per entity
+	-   Evaluates uncertainty per emission category and per entity
 
 -   **Sensitivity analysis**:
 
--   Assesses the impact of **data inputs or allocation choices**
--   Demonstrates the robustness of CFP results under different assumptions
+	-   Assesses the impact of **data inputs or allocation choices**
+	-   Demonstrates the robustness of CFP results under different assumptions
 
 ## b. Worked example – office emissions allocation
 
-To illustrate how the tool functions:
+To illustrate how the tool functions, let's take the example of offices CO2e emissions:
 
 1.  **Scope definition**  
     In the "Introduction" sheet, the **office** category includes:
 
--   Electricity (including upstream & T&D losses)
--   Gas consumption (upstream included)
--   Office waste
--   Fugitive emissions from air conditioning
+	-   Electricity (including upstream & T&D losses)
+	-   Gas consumption (upstream included)
+	-   Office waste
+	-   Fugitive emissions from air conditioning
 
-3.  **Data consolidation**  
+2.  **Data consolidation**  
     These data points are retrieved from the **CFA database**
-4.  **Emission indicators**  
+3.  **Emission indicators**  
     Office-related emissions by country are calculated in the **"Indicator calculations"** sheet.
-5.  **Allocation by entity**  
+4.  **Allocation by entity**  
     In the **"Allocation calculations"** sheet, office emissions are:
 
--   Allocated across entities
--   Divided by the number of consulting days to obtain a per-day per -entity emission factor
+	-   Allocated across entities
+	-   Divided by the number of consulting days to obtain a per-day per -entity emission factor
 
 7.  **Final output**  
     In the **"Final calculations"** sheet, the emission factor per consulting day is:
 
--   Multiplied by the number of project consulting days
--   Integrated into the total project footprint alongside the other indicators.
+	-   Multiplied by the number of project consulting days
+	-   Integrated into the total project footprint alongside the other indicators.
 
 This modular and transparent structure ensures that the _Carbon Brainprint_ tool can be **audited, scaled, and adapted** to a wide range of intellectual service delivery contexts. It also facilitates data traceability, stakeholder communication, and alignment with ISO 14067 requirements.
 
@@ -637,31 +637,31 @@ All assumptions must be:
 
 This practice enhances credibility, traceability, and alignment with ISO 14067 and GHG Protocol requirements.
 
-The following list serves as example of t**ypical assumptions used in a Carbon Brainprint calculator in a consulting industry setting.**
+The following list serves as **example of typical assumptions used in a Carbon Brainprint calculator in a consulting industry setting.**
 
 **1. Administrative / corporate context**
 
 -   **IT equipment:**
 
--   Consultants may use equipment provided either by the company or by the client. When the client provides the equipment, associated emissions are excluded to avoid double counting.
--   IT equipment is assumed to require software to function and emissions linked to software are included accordingly.
+	-   Consultants may use equipment provided either by the company or by the client. When the client provides the equipment, associated emissions are excluded to avoid double counting.
+	-   IT equipment is assumed to require software to function and emissions linked to software are included accordingly.
 
 -   **Exclusion of non-relevant activities:**
 
--   Emission categories from business lines that do not fall under intellectual services are excluded from the assessment.
+	-   Emission categories from business lines that do not fall under intellectual services are excluded from the assessment.
 
 -   **Car fleet emissions (non-business staff):**
 
--   Only vehicles registered under the relevant entity (e.g., Entity X) are included.
+	-   Only vehicles registered under the relevant entity (e.g., Entity X) are included.
 
 -   **Electricity:**
 
--   All electricity emissions are calculated using the **market-based approach**.
+	-   All electricity emissions are calculated using the **market-based approach**.
 
 -   **Purchased goods and services (excluding IT equipment):**
 
--   These are fully attributed to the supporting entity (100% allocation).
--   It is assumed that purchased goods and services are acquired and consumed in the same reporting year. In cases of atypical procurement spikes, this assumption can be revised to reflect operational reality.
+	-   These are fully attributed to the supporting entity (100% allocation).
+	-   It is assumed that purchased goods and services are acquired and consumed in the same reporting year. In cases of atypical procurement spikes, this assumption can be revised to reflect operational reality.
 
 **2. Pre-processing of the service**
 
@@ -671,8 +671,8 @@ The following list serves as example of t**ypical assumptions used in a Carbon B
 **3. Use of the service**
 
 -   Consultants are assumed to work primarily from the **client's premises**.
--   Emissions occurring at the client's premises are **excluded** to prevent double counting within the client’s own carbon accounting.
--   Emissions from **computer usage** are only accounted for during **remote work** (e.g., working from home), to avoid overlap with the client’s Scope 3 reporting.
+-   Emissions occurring at the client's premises are **excluded** to prevent double counting within the client’s 	own carbon accounting.
+-   Emissions from **computer usage** are only accounted for during **remote work** (e.g., working from home), to avoid overlap with the client’s Scope 2 reporting.
 -   When no specific commuting data is available, **proxy values** are used, based on the **average daily commuting emissions** of the entity.
 
 **4. Consultant commuting**
@@ -685,15 +685,13 @@ The following list serves as example of t**ypical assumptions used in a Carbon B
 -   Non-business staff (e.g., HR, finance) are assumed to support **all business operations** equally.
 -   The number of consulting days is calculated as:
 
-_Average number of worked days per year_ × _Average number of consultants employed by the entity during the reporting period_
-
 By clearly documenting these assumptions, organizations can maintain **data integrity**, support **audit readiness**, and provide stakeholders with a transparent view of how emissions were calculated. It also allows for consistent updates and refinements as more precise data becomes available.
 
 ## b. Data limitations and corrective action plans
 
 After calculations, a **thorough review of data limitations** is necessary to guide future improvements. Common limitations and corresponding action plans include:
 
-**a. Business Travel Attribution by Client:**
+**a. Business travel attribution by client:**
 
 Business travel tools often lack client-level granularity.
 
